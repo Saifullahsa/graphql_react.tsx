@@ -9,7 +9,7 @@ type Message = {
 };
 
 const GRAPHQL_HTTP = "https://graphql-node-js.onrender.com/graphql";
-const GRAPHQL_WS = "ws://graphql-node-js.onrender.com/graphql";
+const GRAPHQL_WS = "wss://graphql-node-js.onrender.com/graphql";
 
 export default function App() {
   const [messages, setMessages] = useState<Message[]>([]);
